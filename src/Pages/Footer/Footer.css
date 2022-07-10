@@ -1,0 +1,20 @@
+.footerLi p{
+    display: inline;
+    padding-left: 0.8rem;
+}
+
+.footerLi{
+    margin-top: 1rem;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.hLine{
+   width: 94%; 
+   margin: 0% auto;
+   
+   
+}
