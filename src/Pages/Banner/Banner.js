@@ -4,15 +4,18 @@ import './Banner.css'
 import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Banner = () => {
-
+    const today = new Date()
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var d = new Date();
+    var monthName = months[d.getMonth()];
     return (
         <div>
             <img className='banner' src={banner} alt="" />
-          
-           <div className='calender'>
-                <p className='month'>JUL</p>
-                <p className='date'>22</p>
-                <p className='day'>Friday</p>
+
+            <div className='calender'>
+                <p className='month'>{monthName}</p>
+                <p className='date'>{today.getDate()}</p>
+                <p className='day'>{today.getDay()}</p>
             </div>
 
             <div className='sessionDescription'>
