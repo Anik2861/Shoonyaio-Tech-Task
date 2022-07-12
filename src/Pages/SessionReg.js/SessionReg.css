@@ -6,6 +6,8 @@
 
 .hostInfo {
     display: flex;
+    background: rgba(102, 100, 100, 0.35);
+    border: none;
 }
 
 .hostImg {
@@ -18,14 +20,21 @@
 .detailsCard {
     background: rgba(255, 255, 255, 0.35);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    
-    padding: 0.8rem;
-}
 
+    padding: 0.8rem;
+    margin-right: 1.5rem;
+   
+}
+.hostDescription{
+    background: rgba(94, 91, 91, 0.35);
+}
+.hostDescription h2{
+    background: rgba(102, 99, 99, 0.35);
+}
 .regBtn {
     background-color: #E75480;
     color: white;
@@ -39,14 +48,15 @@
 }
 
 .shareBtn {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.35);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
     border-radius: 10px;
-    border: none solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 5px 35px;
 }
+
 
 
 @media only screen and (max-width: 600px) {
@@ -54,5 +64,14 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .hostDescription h2{
+        font-size: medium;
+    }
+    .hostImg {
+        height: 2rem;
+        width: 2rem;
+    }
+    .detailsCard {
+        margin-bottom: 1rem;
+    }
 }

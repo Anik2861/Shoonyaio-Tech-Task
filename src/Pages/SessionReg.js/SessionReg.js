@@ -17,7 +17,7 @@ const SessionReg = () => {
                 <div className='detailsCard'>
                     <div className='hostInfo'>
                         <img className='hostImg' src={hostImg} alt="" />
-                        <div >
+                        <div className='hostDescription'>
                             <h2>Pushpak Hurpade</h2>
                             <h2>pushpak.developer@gmail.com</h2>
                         </div>
@@ -25,7 +25,7 @@ const SessionReg = () => {
                     <button className='regBtn'>Register</button>
                 </div>
             </div>
-
+            
             <div>
                 <div className='hostInfo'>
                     <img className='hostImg' src={hostImg} alt="" />
