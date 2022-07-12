@@ -5,9 +5,11 @@ import Banner from './Pages/Banner/Banner';
 import Footer from './Pages/Footer/Footer';
 import SessionReg from './Pages/SessionReg.js/SessionReg';
 
+
 function App() {
   return (
     <div>
+
       <Banner></Banner>
       <SessionReg></SessionReg>
       <Footer></Footer>

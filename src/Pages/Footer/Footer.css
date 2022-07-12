@@ -15,6 +15,22 @@
 .hLine{
    width: 94%; 
    margin: 0% auto;
-   
-   
 }
+.icon{
+    margin: 8px;
+    margin-right: 18px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .footerLi p{
+        padding-left: 6px;
+        font-size: small;
+    }.icon{
+        margin: 8px;
+        margin-right: 8px;
+    }
+  }
+

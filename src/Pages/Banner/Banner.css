@@ -1,3 +1,65 @@
-.banner{
+.banner {
+    position: relative;
     width: 100%;
 }
+
+.sessionDescription {
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.nameStyle {
+    color: #E75480;
+    font-weight: 700;
+}
+
+.sessionDate {
+    color: chocolate;
+}
+
+.calender {
+    left: 80%;
+    bottom: 27%;
+    position: absolute;
+    height: 6rem;
+    width: 7rem;
+}
+
+.month {
+    background-color: rgb(204, 10, 10);
+    margin: 0%;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.date {
+    background-color: white;
+    color: black;
+    margin: 0%;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.day {
+    background-color: white;
+    color: black;
+    margin: 0%;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .calender {
+        left: 55%;
+        bottom: 76%;
+        position: absolute;
+        height: 4rem;
+        width: 6rem;
+    }
+    .sessionDescription {
+        margin-top: 3rem;
+    }
+  }

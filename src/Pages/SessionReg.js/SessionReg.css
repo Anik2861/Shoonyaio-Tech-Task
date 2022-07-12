@@ -16,17 +16,18 @@
 }
 
 .detailsCard {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.35);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    
     padding: 0.8rem;
 }
 
 .regBtn {
-    background-color: rgba(209, 59, 177, 0.89);
+    background-color: #E75480;
     color: white;
     padding: 5px 20px;
     border-radius: 10px;
@@ -45,4 +46,13 @@
     border-radius: 10px;
     border: none solid rgba(255, 255, 255, 0.18);
     padding: 5px 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sessionContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
