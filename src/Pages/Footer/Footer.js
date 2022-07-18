@@ -3,7 +3,7 @@ import './Footer.css'
 // import { BiEnvelopeOpen} from 'react-icons/fa';
 
 import { BiEnvelopeOpen } from "react-icons/bi";
-import {FaRegSun } from "react-icons/fa";
+import { FaRegSun } from "react-icons/fa";
 import { ImInstagram } from "react-icons/im";
 
 const Footer = () => {
@@ -20,8 +20,8 @@ const Footer = () => {
                     <p>Help</p>
                 </div>
                 <div className='mt-3'>
-                    <ImInstagram/>
-                    <BiEnvelopeOpen className='icon'/>
+                    <ImInstagram />
+                    <BiEnvelopeOpen className='icon' />
                 </div>
             </div>
         </div>

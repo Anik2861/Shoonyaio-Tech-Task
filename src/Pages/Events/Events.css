@@ -1,0 +1,37 @@
+.createEvent {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.eventImg {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.eventImg img {
+    height: 6rem;
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+
+.img1 {
+    margin-left: 50%;
+}
+
+.img2 {
+    margin-left: 30%;
+}
+
+.img3 {
+    margin-left: 50%;
+}
+
+.eventRoute span {
+    margin-left: 1rem;
+    font-size: larger;
+}
+#allEvents{
+    margin-left: 50%;
+}

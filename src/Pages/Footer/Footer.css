@@ -9,13 +9,13 @@
 .footerContainer{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+   
 }
 
 .hLine{
-   width: 94%; 
-   margin: 0% auto;
+   margin-top: 3rem;
 }
+
 .icon{
     margin: 8px;
     margin-right: 18px;

@@ -1,0 +1,39 @@
+.eventBanner{
+    padding: 3rem;
+}
+.formEvent{
+    background-color: rgb(245, 248, 250);
+    padding: 3rem;
+}
+.access{
+    display: flex;
+}
+.access input{
+    margin-right: 1rem;
+}
+.coverImg{
+    height: 50%;
+    width: 100%;
+}
+.date{
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+.time{
+    width: 20%;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.timeDate{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.nastedNav{
+    color: black;
+    background-color:rgb(224, 224, 224);
+    padding: 7px 20px;
+    font-weight: 700;
+    text-decoration: none;
+}

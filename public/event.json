@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Virtual",
+      "name": "Event Name",
+      "side": "Google Meet, Twitch, Youtube, Wherever it  is.",
+      "placeholder": "Where is the event taking place."
+      
+    },
+    {
+      "id": 2,
+      "title": "In Person",
+      "name": "Event Location",
+      "placeholder": "What's the address?"
+      
+    }
+  ]
+
+
+  
